@@ -1,12 +1,34 @@
 {
-    "subjects":[
-        {
-            "name":"IsiZulu"
-        },
-        {
-            "name":"IsiXhosa"
-        }
-    ],
-
-    "photo":"./pic.png"
+    "user": {
+        "fullName": "Nontokozo Mitchelle Tati",
+        "photo": "./grad picture.jpg",
+        "email": "Mitchellenontokozo@gmail.com",
+        "address": "80 plein street Johannesburg"
+    },
+    "Summary": {
+        "Background": "An individual with a strong sense of academic values, with my current qualifications I plan on making a mark for myself in the corporate industry and lavish my skills"
+    },
+    "Education": {
+        "SchoolName": "University of Johannesburg",
+        "Qualification": "Advance Diploma in Quality",
+        "status": "Completed",
+        "YearofCompletion": "2022"
+    },
+    "Languages": {
+        "Naitive": "IsiXhosa",
+        "Otherlanguages": "English"
+    },
+    "Skills": {
+        "skills": ["End-user Computing", "Management services"]
+    },
+    "WorkHistory": {
+        "Position": "Promoter and club host",
+        "PositionDiscription": "I would promote for different companies, market their products and services, and as a club host I would help clubs attain sales",
+        "Year": "2017-2023"
+    },
+    "References": {
+        "reference": "Club manager",
+        "Name": "Buhle Zizi",
+        "Contactdetails": "0846800415"
+    }
 }

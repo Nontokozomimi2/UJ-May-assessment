@@ -4,14 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>My Cv</title> 
 </head>
 <body>
-        <img src="{{photo}}" alt="" srcset="">
-    <ul>
-        {{#each subjects}}
-        <li>{{this.name}}</li>
-        {{/each}}
-    </ul>
+<div>
+    <h1>Nontokozo Mitchelle Tati</h1>
+    <div>{{user.fullName}}</div>
+    <img src="{{user.photo}}" alt="grad picture.jpg" width="200px" style="border: 10px solid;">
+    <div>{{user.email}}</div>
+    <div>{{user.address}}</div>
+
+    <h1>Summary</h1>
+    <div>{{Summary.Background}}</div>
+    <h1>Education</h1>
+    <div>{{Education.SchoolName}}</div>
+    <div>{{Education.Qualification}}</div>
+    <div>{{Education.status}}</div>
+    <div>{{Education.YearofCompletion}}</div>
+
+<h1>Languages</h1>
+<div>{{Languages.Naitive}}</div>
+<div>{{Languages.Otherlanguages}}</div>
+
+<h1>Skills</h1>
+<div>{{Skills.skills}}</div>
+
+<h1>WorkHistory</h1>
+<div>{{WorkHistory.Position}}</div>
+<div>{{WorkHistory.PositionDiscription}}</div>
+<div>{{WorkHistory.Year}}</div>
+
+<h1>References</h1>
+<div>{{References.reference}}</div>
+<div>{{References.Name}}</div>
+<div>{{References.Contactdetails}}</div>
+</div>
 </body>
 </html>
